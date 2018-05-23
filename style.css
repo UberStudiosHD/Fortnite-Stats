@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Burbank;
+    src: url("/BurbankBigCondensed-Bold.otf") format("opentype");
+}
+
+body{
+    background-image: url('https://i.redd.it/00xj0ekhrv901.jpg');
+    background-size: cover;
+}
+.center{
+    text-align: center;
+}
+form{
+    max-width: 500px;
+    border-radius: 2px;
+    position: relative;
+    margin: 0 auto;
+}
+.search-input{
+    color: #111 !important;
+    padding: 14px 16px;
+    width: 100%;
+    border: unset;
+    outline: none;
+    border-radius: 2px;
+}
+.form-button{
+    width: 40px;
+    border: unset;
+    background: #fff;
+    color: #111;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 8px 0 0;
+}
+.pc{
+    width: 40px;
+    border: unset;
+    background: #fff;
+    color: #111;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 125;
+    margin: 10px 8px 0 0;
+}
+.xbl{
+    width: 40px;
+    border: unset;
+    background: #fff;
+    color: #111;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 90;
+    margin: 10px 8px 0 0;
+}
+.psn{
+    width: 40px;
+    border: unset;
+    background: #fff;
+    color: #111;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 55;
+    margin: 10px 8px 0 0;
+}
+table{
+    color:white;
+    /*background-color: #060b15;*/
+
+}
+.head{
+    background-color: #097ce0;
+    height: 50px;
+}
+.display{
+    height: 170px;
+    background-color:#060b15;
+    opacity: 0.8;
+}
+.display td{
+    font-family: Burbank,serif;
+    font-size: 90px; 
+    text-align: center;
+    margin-top: 30px;
+    width: 33.3%;
+}
+.display p{
+    font-family: Burbank,serif;
+    font-size: 25px; 
+    margin: 0 auto;  
+}
+
+.main p{
+    font-weight: 900;
+    margin-right: 20px;
+    margin: 0 auto;
+    float: right;
+}
+.main div{
+    background-color: #097ce0;
+    border-bottom: 3px solid #060b15;
+    opacity: 0.8;
+    color:white;
+}
+.selected{
+    background-color: lightgray;
+}
